@@ -1,0 +1,10 @@
+# Claude Code private context
+.claude/
+
+# Rust build artifacts
+/target/
+/rscout/target/
+
+# Backup files
+*.bak
+*~
