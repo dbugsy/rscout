@@ -18,7 +18,7 @@ This is a project-based Rust learning curriculum designed for an experienced sof
 ### Topics to Cover
 
 #### 1.1 Setup & Tooling
-- [ ] Install Rust (rustup, cargo)
+- [x] Install Rust (rustup, cargo)
 - [ ] Understand cargo workspace
 - [ ] Basic project structure
 - [ ] cargo commands: build, run, test, check
@@ -155,7 +155,8 @@ A high-performance network scanner built for CTF competitions and security resea
 All learning tasks are defined in `TASKS.md` - 30 core tasks organized into sprints, each teaching specific Rust concepts while building real features.
 
 ### Current Sprint: Sprint 0 - Setup
-### Next Task: TASK-001 - Install Rust Toolchain
+### Completed: TASK-001 - Install Rust Toolchain ✓
+### Next Task: TASK-002 - Create Hello World Program
 
 ---
 
@@ -190,10 +191,13 @@ We'll track progress using structured tasks that will be created as we go.
 _Add notes, insights, and "aha!" moments as you learn_
 
 ### Key Insights
--
+- **Rust's toolchain philosophy**: rustup (version manager) + cargo (build tool/package manager) + rustc (compiler) - similar to Ruby's rbenv+bundler or Node's nvm+npm but more integrated
+- **Release train model**: Rust releases every 6 weeks with strong backwards compatibility - more frequent than Ruby/Node but very stable
+- **Cross-platform consistency**: rustup ensures the same development experience across all platforms
 
 ### Challenges & Solutions
--
+- N/A for initial setup
 
 ### Questions for Later
--
+- When would I need nightly vs stable builds?
+- How do cargo workspaces work for multi-project repos?
